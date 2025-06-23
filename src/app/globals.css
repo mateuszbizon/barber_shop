@@ -10,12 +10,14 @@
   --color-accent: var(--accent);
   --color-muted: var(--muted);
   --color-primary: var(--primary);
+  --color-primary2: var(--primary2);
 }
 
 :root {
   --background: #F8FFF8;
   --foreground: #454839;
   --primary: #DAFF7D;
+  --primary2: #6F950F;
   --muted: #94B0B3;
   --accent: #00D6E4;
   --destructive: oklch(0.577 0.245 27.325);
