@@ -3,10 +3,11 @@ import Container from '../ui/container'
 import { Button } from '../ui/button'
 import Link from 'next/link'
 import Shadow from '../ui/shadow'
+import { IMAGES } from '@/constants/images'
 
 function HeroSection() {
   return (
-    <header className='h-screen z-0 relative bg-[url("/hero_small.jpg")] bg-cover bg-center bg-no-repeat'>
+    <header style={{ backgroundImage: `url(${IMAGES[1].src})` }} className='h-screen z-0 relative bg-cover bg-center bg-no-repeat'>
         <Shadow />
         <Container>
             <div className='flex flex-col justify-center gap-5 md:gap-10 h-full'>
