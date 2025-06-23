@@ -12,6 +12,7 @@
   --color-primary: var(--primary);
   --color-primary2: var(--primary2);
   --color-light: var(--light);
+  --spacing-section-padding: var(--section-padding);
 }
 
 :root {
@@ -25,6 +26,7 @@
   --border: #94B0B3;
   --ring: #DAFF7D;
   --light: #F8FFF8;
+  --section-padding: 5rem;
 }
 
 @layer base {
@@ -53,7 +55,7 @@
         @apply text-lg md:text-xl xl:text-2xl font-medium
     }
 
-    .heading-marginb-bottom {
+    .heading-margin-bottom {
         @apply mb-10 md:mb-16
     }
 }
