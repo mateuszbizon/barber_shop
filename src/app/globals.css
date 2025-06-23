@@ -11,6 +11,7 @@
   --color-muted: var(--muted);
   --color-primary: var(--primary);
   --color-primary2: var(--primary2);
+  --color-light: var(--light);
 }
 
 :root {
@@ -23,6 +24,7 @@
   --destructive: oklch(0.577 0.245 27.325);
   --border: #94B0B3;
   --ring: #DAFF7D;
+  --light: #F8FFF8;
 }
 
 @layer base {
