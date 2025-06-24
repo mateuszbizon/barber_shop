@@ -7,7 +7,7 @@ import { HERO_IMAGE } from '@/constants/images'
 
 function HeroSection() {
   return (
-    <header style={{ backgroundImage: `url(${HERO_IMAGE.src})` }} className='h-screen z-0 relative bg-cover bg-center bg-no-repeat'>
+    <header style={{ backgroundImage: `url(${HERO_IMAGE.src})` }} className='header-section-height z-0 relative bg-cover bg-center bg-no-repeat'>
         <Shadow />
         <Container>
             <div className='flex flex-col justify-center gap-5 md:gap-10 h-full'>
