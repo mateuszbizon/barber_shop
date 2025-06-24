@@ -1,6 +1,7 @@
 import AboutSection from "@/components/sections/AboutSection";
 import HeroSection from "@/components/sections/HeroSection";
 import ImageGallerySection from "@/components/sections/ImageGallerySection";
+import MapSection from "@/components/sections/MapSection";
 import ServiceSection from "@/components/sections/ServiceSection";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
         <AboutSection />
         <ImageGallerySection />
         <ServiceSection />
+        <MapSection />
     </>
   );
 }
