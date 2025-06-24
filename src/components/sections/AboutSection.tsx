@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../ui/container'
 import Image from 'next/image'
-import { IMAGES } from '@/constants/images'
+import { LOGO } from '@/constants/images'
 
 function AboutSection() {
   return (
@@ -11,7 +11,7 @@ function AboutSection() {
             <div className='grid md:grid-cols-2 gap-10'>
                 <div>
                     <figure className='relative w-1/2 aspect-square mx-auto'>
-                        <Image src={IMAGES[0].src} alt={IMAGES[0].alt} fill />
+                        <Image src={LOGO.src} alt={LOGO.alt} fill />
                     </figure>
                 </div>
 
