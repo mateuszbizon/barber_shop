@@ -5,6 +5,7 @@ import { Button } from '../ui/button'
 import Link from 'next/link'
 import { NAV_ITEMS } from '@/constants/navItems'
 import NavItemCard from '../cards/NavItemCard'
+import NavItemsMobile from './NavItemsMobile'
 
 function Nav() {
   return (
@@ -34,6 +35,9 @@ function Nav() {
                         Zarezerwuj
                     </Link>
                 </Button>
+            </div>
+            <div className='md:hidden'>
+                <NavItemsMobile items={NAV_ITEMS} />
             </div>
         </div>
     </nav>
