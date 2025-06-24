@@ -13,13 +13,15 @@ const buttonVariants = cva(
           "bg-primary hover:bg-primary2 hover:text-white",
         destructive:
           "bg-destructive text-white shadow-xs hover:bg-destructive/90 focus-visible:ring-destructive/20",
-        link: "text-primary underline-offset-4 hover:underline",
+        link: "text-primary underline-offset-4 hover:text-primary2 hover:underline",
+        navLink: "text-foreground hover:text-accent"
       },
       size: {
-        default: "h-9 px-4 py-2",
-        sm: "h-8 px-3 gap-1.5 text-sm",
+        default: "px-6 py-3",
+        sm: "px-3 py-1.5 gap-1.5 text-sm",
         lg: "px-10 py-4",
         icon: "size-9",
+        link: "p-0"
       },
     },
     defaultVariants: {
