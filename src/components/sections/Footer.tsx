@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../ui/container'
 import Image from 'next/image'
-import { LOGO } from '@/constants/images'
+import { LOGO_WHITE } from '@/constants/images'
 import { NAV_ITEMS } from '@/constants/navItems'
 import Link from 'next/link'
 import { Button } from '../ui/button'
@@ -16,7 +16,7 @@ function Footer() {
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-20'>
                 <div className='space-y-2 text-center md:text-left'>
                     <figure className='relative size-20 mx-auto md:mx-0'>
-                        <Image src={LOGO.src} alt={LOGO.alt} fill className='object-cover' />
+                        <Image src={LOGO_WHITE.src} alt={LOGO_WHITE.alt} fill className='object-cover' />
                     </figure>
                     <p className='text-lg'>
                         <em>

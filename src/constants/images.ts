@@ -4,6 +4,10 @@ export const LOGO: Image = {
     src: "/logo.png",
     alt: "Logo"
 }
+export const LOGO_WHITE: Image = {
+    src: "/logo_white.png",
+    alt: "Logo"
+}
 export const HERO_IMAGE: Image = {
     src: "/hero_small.jpg",
     alt: "Hero Image"
