@@ -17,4 +17,8 @@ export const NAV_ITEMS: NavItem[] = [
         href: "/jak-dojechac",
         label: "Jak dojechać",
     },
+    {
+        href: "/kontakt",
+        label: "Kontakt",
+    },
 ]
