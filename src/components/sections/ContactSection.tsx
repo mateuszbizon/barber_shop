@@ -2,6 +2,8 @@ import React from 'react'
 import Container from '../ui/container'
 import { EMAIL, LOCATION, PHONE_NUMBER } from '@/constants'
 import Link from 'next/link'
+import { Button } from '../ui/button'
+import { Facebook, Instagram } from 'lucide-react'
 
 function ContactSection() {
   return (
@@ -25,6 +27,18 @@ function ContactSection() {
                         <Link href={`mailto:${EMAIL}`}>
                             <p className='text-xl font-medium'>{EMAIL}</p>
                         </Link>
+                    </div>
+                    <div className='flex justify-center items-center gap-3 text-foreground'>
+                        <Button className='size-11' size={"icon"} asChild>
+                            <Link href={"https://www.instagram.com/"} target='_blank' title='Instagram'>
+                                <Instagram className='size-6' />
+                            </Link>
+                        </Button>
+                        <Button className='size-11' size={"icon"} asChild>
+                            <Link href={"https://www.facebook.com/"} target='_blank' title='Facebook'>
+                                <Facebook className='size-6' />
+                            </Link>
+                        </Button>
                     </div>
                 </div>
 
