@@ -32,11 +32,13 @@ function ContactSection() {
                     <div className='flex justify-center items-center gap-3 text-foreground'>
                         <Button className='size-11' size={"icon"} asChild>
                             <Link href={"https://www.instagram.com/"} target='_blank' title='Instagram'>
+                                <span className='sr-only'>instagram</span>
                                 <Instagram className='size-6' />
                             </Link>
                         </Button>
                         <Button className='size-11' size={"icon"} asChild>
                             <Link href={"https://www.facebook.com/"} target='_blank' title='Facebook'>
+                                <span className='sr-only'>facebook</span>
                                 <Facebook className='size-6' />
                             </Link>
                         </Button>
