@@ -3,7 +3,8 @@ import Container from '../ui/container'
 import { EMAIL, LOCATION, PHONE_NUMBER } from '@/constants'
 import Link from 'next/link'
 import { Button } from '../ui/button'
-import { Facebook, Instagram } from 'lucide-react'
+import { Instagram } from 'lucide-react'
+import Facebook from '../ui/icons/facebook'
 
 function ContactSection() {
   return (
