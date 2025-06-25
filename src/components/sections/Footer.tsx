@@ -6,6 +6,8 @@ import { NAV_ITEMS } from '@/constants/navItems'
 import Link from 'next/link'
 import { Button } from '../ui/button'
 import { EMAIL, LOCATION, PHONE_NUMBER } from '@/constants'
+import { Instagram } from 'lucide-react'
+import Facebook from '../ui/icons/facebook'
 
 function Footer() {
   return (
@@ -57,6 +59,20 @@ function Footer() {
                         <Button className='text-light hover:text-light/70' size={"link"} variant={"link"} asChild>
                             <Link href={`tel:${EMAIL}`}>
                                 <p>{EMAIL}</p>
+                            </Link>
+                        </Button>
+                    </div>
+                    <div className='flex justify-center lg:justify-start items-center gap-3 text-foreground'>
+                        <Button className='size-11' size={"icon"} asChild>
+                            <Link href={"https://www.instagram.com/"} target='_blank' title='Instagram'>
+                                <span className='sr-only'>instagram</span>
+                                <Instagram className='size-6' />
+                            </Link>
+                        </Button>
+                        <Button className='size-11' size={"icon"} asChild>
+                            <Link href={"https://www.facebook.com/"} target='_blank' title='Facebook'>
+                                <span className='sr-only'>facebook</span>
+                                <Facebook className='size-6' />
                             </Link>
                         </Button>
                     </div>
