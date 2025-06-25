@@ -12,6 +12,7 @@
   --color-primary: var(--primary);
   --color-primary2: var(--primary2);
   --color-light: var(--light);
+  --color-dark: var(--dark);
   --spacing-section-padding: var(--section-padding);
   --spacing-nav-height: var(--nav-height);
 }
@@ -27,6 +28,7 @@
   --border: #94B0B3;
   --ring: #DAFF7D;
   --light: #F8FFF8;
+  --dark: #183700;
   --section-padding: 5rem;
   --nav-height: 5rem;
 }
