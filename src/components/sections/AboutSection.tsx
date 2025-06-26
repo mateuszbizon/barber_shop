@@ -1,14 +1,36 @@
+"use client"
+
 import React from 'react'
 import Container from '../ui/container'
 import Image from 'next/image'
 import { LOGO } from '@/constants/images'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+gsap.registerPlugin(ScrollTrigger)
 
 function AboutSection() {
+    useGSAP(() => {
+        gsap.fromTo("#about-content", {
+            opacity: 0,
+        }, {
+            opacity: 1,
+            duration: 1,
+            ease: "power2.out",
+            scrollTrigger: {
+                trigger: "#about",
+                start: "top center",
+                once: true
+            }
+        })
+    }, [])
+
   return (
-    <section className='py-section-padding'>
+    <section id='about' className='py-section-padding'>
         <Container>
             <h2 className='heading2 text-center heading-margin-bottom'>O nas</h2>
-            <div className='grid md:grid-cols-2 gap-10'>
+            <div id='about-content' className='grid md:grid-cols-2 gap-10'>
                 <div>
                     <figure className='relative w-1/2 aspect-square mx-auto'>
                         <Image src={LOGO.src} alt={LOGO.alt} fill />
