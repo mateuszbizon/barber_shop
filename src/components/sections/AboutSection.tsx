@@ -37,12 +37,12 @@ function AboutSection() {
                     </figure>
                 </div>
 
-                <div className='text-pretty bigger-text text-center leading-normal space-y-5'>
+                <div className='text-pretty bigger-text leading-normal space-y-5'>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt esse consequatur aliquid. Expedita voluptatem, placeat excepturi consequuntur aliquid ad nobis voluptate laudantium eligendi repudiandae ipsam aliquam maxime odio nulla quisquam.
+                        Nasz salon powstał z miłości do piękna i sztuki fryzjerskiej. Codziennie dbamy o to, by nasi klienci wychodzili od nas z uśmiechem i fryzurą, która podkreśla ich styl.
                     </p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut magnam fugit maiores, praesentium nemo deserunt voluptate recusandae quae. Libero cumque laboriosam vitae molestias accusamus quis, earum repudiandae perferendis non quibusdam.
+                        Łączymy doświadczenie z najnowszymi trendami. Niezależnie od tego, czy szukasz klasycznego cięcia, nowoczesnej koloryzacji, czy odświeżenia wizerunku — jesteśmy tutaj dla Ciebie.
                     </p>
                 </div>
             </div>
