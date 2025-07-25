@@ -5,7 +5,7 @@ type ContainerProps = React.ComponentProps<'div'> & PropsWithChildren
 
 function Container({ children, className, ...props }: ContainerProps) {
   return (
-    <div className={cn("w-full max-w-[1200px] mx-auto px-5 h-full", className)} {...props}>
+    <div className={cn("w-full max-w-[1400px] mx-auto px-5 h-full", className)} {...props}>
         {children}
     </div>
   )

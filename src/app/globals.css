@@ -3,6 +3,8 @@
 
 @theme inline {
   --color-background: var(--background);
+  --color-background2: var(--background2);
+  --color-background3: var(--background3);
   --color-foreground: var(--foreground);
   --color-ring: var(--ring);
   --color-border: var(--border);
@@ -19,6 +21,8 @@
 
 :root {
   --background: #F8FFF8;
+  --background2: #E0FFE0;
+  --background3: #C7FFC7;
   --foreground: #454839;
   --primary: #DAFF7D;
   --primary2: #6F950F;
