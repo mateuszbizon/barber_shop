@@ -28,8 +28,8 @@ function HeroSection() {
         <Shadow />
         <Container>
             <div className='flex flex-col justify-center gap-5 md:gap-10 h-full'>
-                <h1 className='text-animate heading1 text-center text-light'>Najlepszy Barber Shop w Polsce</h1>
-                <p className='text-animate bigger-text text-center text-light'>Zapraszamy do naszego lokalu w Warszawie.</p>
+                <h1 className='text-animate heading1 text-center text-light'>Twoje włosy, nasza pasja</h1>
+                <p className='text-animate bigger-text text-center text-light'>Profesjonalne strzyżenie, koloryzacja i stylizacja dla kobiet i mężczyzn. Odwiedź nasz salon i odkryj, jak dobrze możesz wyglądać — i czuć się — każdego dnia.</p>
                 <div className='text-animate flex justify-center'>
                     <Button size={"lg"} className='text-lg' asChild>
                         <Link href={"https://booksy.com/pl-pl/"} target='_blank'>
