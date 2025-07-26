@@ -10,7 +10,7 @@ function ImageGallerySection() {
   return (
     <section className='py-section-padding'>
         <Container>
-            <h2 className='heading2 text-center mb-10'>Galeria zdjęć</h2>
+            <h2 className='heading2 text-center'>Galeria zdjęć</h2>
             <LightBoxGallery images={images} />
         </Container>
     </section>
