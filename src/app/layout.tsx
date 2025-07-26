@@ -7,8 +7,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Barber Shop",
-  description: "Strona internetowa dla salonu fryzjerskiego",
+  title: "Salon Fryzjerski",
+  description: "Profesjonalne strzyżenie, koloryzacja i stylizacja dla kobiet i mężczyzn. Odwiedź nasz salon i odkryj, jak dobrze możesz wyglądać — i czuć się — każdego dnia.",
 };
 
 export default function RootLayout({
